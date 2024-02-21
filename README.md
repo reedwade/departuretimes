@@ -1,8 +1,10 @@
 
-# departuretimes.click
+# DepartureTimes.click
 
 Web site for seeing when the next few Metlink buses / trains will
 be near your fav stop (if you are in Wellington, New Zealand)
+
+<https://DepartureTimes.click/>
 
 This is a simple, client only, React site. It uses <https://vitejs.dev/>
 
@@ -42,7 +44,7 @@ Visit <https://opendata.metlink.org.nz/> and register to get your own API key an
 .env.local file. See .env-example for an example.
 
 ```text
-echo "VITE_API_KEY=$your-spi-key-goes-here" > .env.local
+echo "VITE_API_KEY=$your-api-key-goes-here" > .env.local
 ```
 
 (*.local files are covered by .gitignore.)
