@@ -1,0 +1,50 @@
+{
+  "name": "departuretimes",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run lint && tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "deploy": "./deploy.sh",
+    "coverage": "jest --coverage",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.15.4",
+    "@mui/material": "latest",
+    "@tanstack/react-query": "^5.20.2",
+    "@tanstack/react-query-devtools": "^5.20.2",
+    "node": "^20.11.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "^6.21.2"
+  },
+  "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.20.1",
+    "@testing-library/jest-dom": "^6.4.1",
+    "@testing-library/react": "^14.2.1",
+    "@types/jest": "^29.5.12",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@vitejs/plugin-react": "latest",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "happy-dom": "^13.3.8",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-jest-mock-import-meta": "^1.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "latest",
+    "vite": "latest",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}

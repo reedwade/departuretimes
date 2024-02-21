@@ -1,0 +1,2464 @@
+{
+    "farezone": "3",
+    "closed": false,
+    "departures": [
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T14:10:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__725__TZM__210__210_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3040",
+                "name": "J'ville West"
+            },
+            "delay": "PT7M43S",
+            "vehicle_id": "3701",
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T14:06:00+13:00",
+                "expected": "2024-01-22T14:13:43+13:00"
+            },
+            "departure": {
+                "aimed": "2024-01-22T14:06:00+13:00",
+                "expected": "2024-01-22T14:13:43+13:00"
+            },
+            "status": "delayed",
+            "monitored": true,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__747__TZM__103__1__103__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "-PT1M17S",
+            "vehicle_id": "3721",
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T14:21:00+13:00",
+                "expected": "2024-01-22T14:19:43+13:00"
+            },
+            "departure": {
+                "aimed": "2024-01-22T14:21:00+13:00",
+                "expected": "2024-01-22T14:21:00+13:00"
+            },
+            "status": "ontime",
+            "monitored": true,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__749__TZM__216__216_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "-PT1M17S",
+            "vehicle_id": "3737",
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T14:36:00+13:00",
+                "expected": "2024-01-22T14:34:43+13:00"
+            },
+            "departure": {
+                "aimed": "2024-01-22T14:36:00+13:00",
+                "expected": "2024-01-22T14:36:00+13:00"
+            },
+            "status": "ontime",
+            "monitored": true,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__751__TZM__201__3__201__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": "3510",
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T14:40:00+13:00",
+                "expected": "2024-01-22T14:40:00+13:00"
+            },
+            "status": "ontime",
+            "monitored": true,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__727__TZM__205__3__205__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "-PT1M17S",
+            "vehicle_id": "3704",
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T14:51:00+13:00",
+                "expected": "2024-01-22T14:49:43+13:00"
+            },
+            "departure": {
+                "aimed": "2024-01-22T14:51:00+13:00",
+                "expected": "2024-01-22T14:51:00+13:00"
+            },
+            "status": "ontime",
+            "monitored": true,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__753__TZM__102__1__102__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T14:58:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__715__MNM__1051__1__1051__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T15:10:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__729__TZM__205__3__205__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "-PT17S",
+            "vehicle_id": "3736",
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T15:18:00+13:00",
+                "expected": "2024-01-22T15:17:43+13:00"
+            },
+            "departure": {
+                "aimed": "2024-01-22T15:18:00+13:00",
+                "expected": "2024-01-22T15:18:00+13:00"
+            },
+            "status": "ontime",
+            "monitored": true,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__757__TZM__203__3__203__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT43S",
+            "vehicle_id": "3717",
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T15:34:00+13:00",
+                "expected": "2024-01-22T15:34:43+13:00"
+            },
+            "departure": {
+                "aimed": "2024-01-22T15:34:00+13:00",
+                "expected": "2024-01-22T15:34:43+13:00"
+            },
+            "status": "ontime",
+            "monitored": true,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__759__TZM__209__1__209__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T15:40:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__731__TZM__205__3__205__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "-PT17S",
+            "vehicle_id": "3453",
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T15:48:00+13:00",
+                "expected": "2024-01-22T15:47:43+13:00"
+            },
+            "departure": {
+                "aimed": "2024-01-22T15:48:00+13:00",
+                "expected": "2024-01-22T15:48:00+13:00"
+            },
+            "status": "ontime",
+            "monitored": true,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__761__TZM__109__1__109__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:00:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__717__MNM__1051__1__1051__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3040",
+                "name": "J'ville West"
+            },
+            "delay": "-PT17S",
+            "vehicle_id": "3452",
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T16:04:00+13:00",
+                "expected": "2024-01-22T16:03:43+13:00"
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:04:00+13:00",
+                "expected": "2024-01-22T16:04:00+13:00"
+            },
+            "status": "ontime",
+            "monitored": true,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__763__TZM__202__3__202__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:08:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__733__TZM__205__3__205__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T16:18:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:18:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__765__TZM__120__1__120__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT43S",
+            "vehicle_id": "3729",
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T16:34:00+13:00",
+                "expected": "2024-01-22T16:34:43+13:00"
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:34:00+13:00",
+                "expected": "2024-01-22T16:34:43+13:00"
+            },
+            "status": "ontime",
+            "monitored": true,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__767__TZM__207__1__207__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:38:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__735__TZM__202__3__202__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T16:48:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:48:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__769__TZM__211__211_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:58:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__719__MNM__1042__1__1042__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3040",
+                "name": "J'ville West"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T17:04:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T17:04:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__771__TZM__112__2__112__2_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T17:08:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__737__TZM__202__3__202__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T17:18:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T17:18:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__773__TZM__214__214_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T17:33:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T17:33:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__775__TZM__216__216_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T17:38:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__739__TZM__202__3__202__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T17:58:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__721__MNM__1042__1__1042__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3040",
+                "name": "J'ville West"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T18:04:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T18:04:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__779__TZM__115__2__115__2_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T18:08:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__741__TZM__202__3__202__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T18:18:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T18:18:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__781__TZM__102__1__102__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T18:33:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T18:33:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__783__TZM__208__1__208__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T18:48:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T18:48:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__785__TZM__203__3__203__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T18:58:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__723__MNM__1042__1__1042__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3040",
+                "name": "J'ville West"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T19:01:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T19:01:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__787__TZM__209__1__209__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T19:07:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__743__TZM__208__1__208__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T19:18:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T19:18:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__789__TZM__103__1__103__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T19:33:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T19:33:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__791__TZM__204__3__204__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T19:48:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T19:48:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__793__TZM__112__2__112__2_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T19:58:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__725__MNM__1042__1__1042__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3040",
+                "name": "J'ville West"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T20:01:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T20:01:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__795__TZM__105__1__105__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T20:07:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__745__TZM__201__3__201__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T20:20:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T20:20:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__797__TZM__214__214_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T20:43:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T20:43:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__799__TZM__115__2__115__2_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T21:04:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__747__TZM__117__2__117__2_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T21:24:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T21:24:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__803__TZM__213__213_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T21:55:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T21:55:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__805__TZM__119__119_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T22:00:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__749__TZM__206__3__206__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T22:24:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T22:24:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__807__TZM__118__2__118__2_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T22:55:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T22:55:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__809__TZM__210__210_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-22T23:24:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T23:24:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__811__TZM__214__214_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T05:52:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__179__TZM__202__5__202__5_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T06:24:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__181__TZM__202__5__202__5_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T06:27:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T06:27:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__101__TZM__101__3__101__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T06:40:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__101__MNM__3201__1__3201__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T06:48:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T06:48:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__103__TZM__103__3__103__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T06:49:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__183__TZM__215__2__215__2_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T07:09:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__185__TZM__202__5__202__5_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T07:11:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T07:11:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__105__TZM__201__5__201__5_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T07:12:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__103__MNM__3331__1__3331__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T07:29:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__187__TZM__224__224_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T07:30:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T07:30:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__107__TZM__131__131_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T07:40:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__105__MNM__3301__1__3301__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T07:50:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T07:50:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__109__TZM__204__5__204__5_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T07:59:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T07:59:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__111__TZM__207__3__207__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60e",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "5000",
+                "name": "CourtenayPl-A"
+            },
+            "destination": {
+                "stop_id": "2871",
+                "name": "Whitireia-Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T08:00:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T08:00:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60e__0__101__MNM__3111__1__3111__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T08:02:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__137__TZM__224__224_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3040",
+                "name": "J'ville West"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T08:08:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T08:08:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__113__TZM__146__146_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60e",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "5000",
+                "name": "CourtenayPl-A"
+            },
+            "destination": {
+                "stop_id": "2871",
+                "name": "Whitireia-Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T08:20:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T08:20:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60e__0__103__MNM__3011__1__3011__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T08:23:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T08:23:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__115__TZM__218__1__218__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T08:33:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T08:33:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__117__TZM__107__2__107__2_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T08:40:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__107__MNM__3041__1__3041__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T08:43:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__189__TZM__224__224_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3040",
+                "name": "J'ville West"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T08:44:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T08:44:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__119__TZM__141__141_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T08:50:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T08:50:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__121__TZM__134__134_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T09:00:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__109__MNM__3031__1__3031__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T09:08:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T09:08:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__125__TZM__213__2__213__2_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3040",
+                "name": "J'ville West"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T09:14:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T09:14:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__127__TZM__212__2__212__2_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T09:14:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__141__TZM__114__4__114__4_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T09:20:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__111__MNM__3111__1__3111__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T09:23:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T09:23:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__129__TZM__110__4__110__4_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T09:33:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T09:33:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__131__TZM__128__128_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3040",
+                "name": "J'ville West"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T09:39:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T09:39:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__133__TZM__219__1__219__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T09:40:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__113__MNM__3041__1__3041__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "19",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "3081",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T09:44:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "19__0__143__TZM__210__3__210__3_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3281",
+                "name": "Churton Park"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T09:50:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T09:50:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__135__TZM__220__1__220__1_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "1",
+            "direction": "outbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7158",
+                "name": "Island Bay-ReefSt a"
+            },
+            "destination": {
+                "stop_id": "3451",
+                "name": "Grenada Village"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "aimed": "2024-01-23T09:59:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T09:59:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "1__0__137__TZM__215__2__215__2_20231217"
+        },
+        {
+            "stop_id": "3000",
+            "service_id": "60",
+            "direction": "outbound",
+            "operator": "MNM",
+            "origin": {
+                "stop_id": "3000",
+                "name": "Johnsonville-A"
+            },
+            "destination": {
+                "stop_id": "2002",
+                "name": "Porirua"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "Johnsonville-A",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T10:00:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "60__0__115__MNM__3031__1__3031__1_20231217"
+        }
+    ]
+}

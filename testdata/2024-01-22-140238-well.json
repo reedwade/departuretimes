@@ -1,0 +1,1378 @@
+{
+    "farezone": "1",
+    "closed": false,
+    "departures": [
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T14:05:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3842__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T14:14:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6444__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T14:32:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9350__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T14:35:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3844__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T14:44:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6446__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T15:02:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9352__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T15:05:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3846__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T15:14:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6448__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T15:32:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9354__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T15:35:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3848__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T15:44:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6450__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:02:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9358__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:05:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3850__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:14:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6452__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:32:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9362__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:35:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3852__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T16:44:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6454__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T17:02:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9366__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T17:05:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3854__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T17:14:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6456__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T17:32:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9370__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T17:35:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3856__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T17:44:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6458__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T18:02:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9374__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T18:05:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3858__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T18:14:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6460__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T18:32:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9378__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T18:35:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3860__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T18:44:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6462__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "WRL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "MAST",
+                "name": "MAST-Express"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T18:55:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "WRL__0__1616__RAIL__Rail_SaSu+Hol_-_Xmas_(WRL)_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T19:02:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9380__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T19:05:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3862__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T19:14:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6464__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T20:02:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9384__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T20:05:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3864__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T20:14:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6466__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T21:02:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9388__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T21:05:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3866__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T21:14:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6468__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T22:02:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9392__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T22:05:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3868__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T22:14:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6470__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T23:02:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9394__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T23:05:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__3870__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-22T23:14:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6472__RAIL__Rail_SaSu+Hol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T05:32:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9200__RAIL__Rail_MTuWThF-XHol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "HVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "UPPE",
+                "name": "UPPE-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T05:50:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "HVL__0__2608__RAIL__Rail_MTuWThF-XHol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "KPL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "WAIK",
+                "name": "WAIK-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T05:52:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "KPL__0__6210__RAIL__Rail_MTuWThF-XHol_20231217"
+        },
+        {
+            "stop_id": "WELL",
+            "service_id": "JVL",
+            "direction": "outbound",
+            "operator": "RAIL",
+            "origin": {
+                "stop_id": "WELL",
+                "name": "WgtnStn"
+            },
+            "destination": {
+                "stop_id": "JOHN",
+                "name": "JOHN-All stops"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "WgtnStn",
+            "arrival": {
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2024-01-23T06:02:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": true,
+            "trip_id": "JVL__0__9306__RAIL__Rail_MTuWThF-XHol_20231217"
+        }
+    ]
+}
