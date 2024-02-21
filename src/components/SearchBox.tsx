@@ -1,5 +1,5 @@
 import SearchIcon from '@mui/icons-material/Search';
-import { Box, IconButton, SxProps, TextField } from '@mui/material';
+import { Alert, Box, IconButton, SxProps, TextField } from '@mui/material';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { composeStopURL } from '../lib/urls';
@@ -26,6 +26,9 @@ export const SearchBox = ({ sx }: { sx?: SxProps }) => {
 
     return (
         <form onSubmit={(e) => { e.preventDefault() }}>
+            <Alert severity='warning'>
+                You'll need to enter the exact ID, like "CROF". Soon there'll be a nicer scheme for this.
+            </Alert>
             <Box sx={{ ...sx, display: 'flex', flexWrap: 'wrap' }}>
                 <TextField
                     placeholder='Bus or Train Stop ID...'

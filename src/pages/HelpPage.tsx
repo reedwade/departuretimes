@@ -8,9 +8,6 @@ const HelpPage = () => (
         <PaperWithHeadline
             headline='Help'
         >
-            <h3>
-                Quick Start:
-            </h3>
             <p>
                 Enter a bus or train stop ID in the search box on the home page and press enter or click the
                 search button.
