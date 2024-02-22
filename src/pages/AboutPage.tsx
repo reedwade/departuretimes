@@ -70,13 +70,6 @@ const AboutPage = () => (
                     Margins should be tighter on smaller width displays.
                 </dd>
             </dl>
-            <dl>
-                <dt>the search tool isn't smart at all</dt>
-                <dd>
-                    Right now, you need to already know the precise stop ID.
-                    You can't type "crofton downs" and discover that you want the CROF train stop, for example.
-                </dd>
-            </dl>
         </PaperWithHeadline>
 
         <PaperWithHeadline

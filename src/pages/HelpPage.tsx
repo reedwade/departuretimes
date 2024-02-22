@@ -9,21 +9,20 @@ const HelpPage = () => (
             headline='Help'
         >
             <p>
-                Enter a bus or train stop ID in the search box on the home page and press enter or click the
-                search button.
+                Select a bus or train stop from options on the home page. (or here)
             </p>
 
-            <SearchBox/>
+            <SearchBox />
 
             <p>
-                You should then see a list of departure times from there.
+                You should then see a list of departure times from that location.
             </p>
 
             <img src='help-list.webp' width='290' height='417' alt='departures listing' />
 
             <p>
-                Selecting the <FavoriteBorderIcon fontSize='small' /> button will add this stop to your favourites which will
-                then show anytime you visit the home page.
+                Selecting the <FavoriteBorderIcon fontSize='small' /> button will add this stop to your favourites which
+                show when you visit the home page.
             </p>
 
             <p>
@@ -31,10 +30,9 @@ const HelpPage = () => (
             </p>
 
             <p>
-                Click on a departure stop to show only those trips leaving from your selected stop to
-                that destination. (Selecting <FavoriteBorderIcon fontSize='small' /> in that view
-                will store this favorite with the selected
-                destination.)
+                At the bottom of the listing click on a departure stop to show only those trips leaving from
+                your selected stop to that destination. (Selecting <FavoriteBorderIcon fontSize='small' /> in
+                that view will store this favorite with the selected destination.)
             </p>
         </PaperWithHeadline>
 
@@ -45,4 +43,3 @@ const HelpPage = () => (
 );
 
 export default HelpPage;
-

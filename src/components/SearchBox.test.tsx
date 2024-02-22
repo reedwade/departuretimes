@@ -16,40 +16,37 @@ describe('SearchBox', () => {
         mockedUsedNavigate.mockReset()
     });
 
+    const testOptions = [
+        { label: "CAKE", id: "CAKE" },
+    ]
+
     test('search for cake->CAKE with button press', () => {
         render(
             <BrowserRouter>
-                <SearchBox />
+                <SearchBox options={testOptions} />
             </BrowserRouter>
         );
 
-        const textfield = screen.getByPlaceholderText('Bus or Train Stop ID...');
-        expect(textfield).toBeInTheDocument();
+        const buttons = screen.getAllByRole('button');
+        expect(buttons).toHaveLength(2);
 
-        const button = screen.getByRole('button');
-        expect(button).toBeInTheDocument();
+        const comboboxs = screen.getAllByRole('combobox');
+        expect(comboboxs).toHaveLength(2);
+        expect(comboboxs[0]).toHaveValue("")
+        expect(comboboxs[1]).toHaveValue("")
 
-        fireEvent.change(textfield, { target: { value: 'cake' } });
-        fireEvent.click(button);
+        // open the menu
+        fireEvent.click(buttons[0]);
 
-        // Should convert 'cake' to 'CAKE'.
-        expect(mockedUsedNavigate).toHaveBeenCalledWith('/stop?stop=CAKE');
-    });
+        const menuOptions = screen.getAllByRole('option');
+        expect(menuOptions).toHaveLength(1);
 
-    test('search for cake->CAKE with enter key', () => {
-        render(
-            <BrowserRouter>
-                <SearchBox />
-            </BrowserRouter>
-        );
+        // select CAKE
+        fireEvent.click(menuOptions[0]);
 
-        const textfield = screen.getByPlaceholderText('Bus or Train Stop ID...');
-        expect(textfield).toBeInTheDocument();
+        expect(comboboxs[0]).toHaveValue("CAKE")
+        expect(comboboxs[1]).toHaveValue("")
 
-        fireEvent.change(textfield, { target: { value: 'cake' } });
-        fireEvent.keyDown(textfield, { key: 'Enter' });
-
-        // Should convert 'cake' to 'CAKE'.
         expect(mockedUsedNavigate).toHaveBeenCalledWith('/stop?stop=CAKE');
     });
 

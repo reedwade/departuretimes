@@ -21,9 +21,7 @@ As importantly, any service alert is right there so I know whether to be sad or 
 
 ## To Do
 
-* the search tool isn't smart at all -- you have to already know the stop ID and enter it
-  * you can't type "crofton downs" and discover that you want the CROF train stop, for example
-  * 🌶 this one is really a critical item, once sorted then remove the robots meta tag in index.html
+* lazy load the stops list (it's 50k compressed)
 * auto CI deploy scheme
 * destinations button bar can be wider than the page
   * some stops have more destinations than fit nicely on a phone screen; need to wrap these or something
@@ -31,6 +29,9 @@ As importantly, any service alert is right there so I know whether to be sad or 
   * margins should be tighter on smaller width displays
 * PWA config
 * a more sensible favicon
+* bus route number in the departures list view would be nice
+* bus/train/ferry indicator in the stop picker would be nice
+* bus/train/ferry filter in the stop picker would be nice
 
 ## Getting Started
 

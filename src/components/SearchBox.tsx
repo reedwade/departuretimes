@@ -1,45 +1,40 @@
-import SearchIcon from '@mui/icons-material/Search';
-import { Alert, Box, IconButton, SxProps, TextField } from '@mui/material';
-import { useState } from 'react';
+import { Autocomplete, Box, SxProps, TextField } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { composeStopURL } from '../lib/urls';
 
-export const SearchBox = ({ sx }: { sx?: SxProps }) => {
+// TODO: this is 50k compressed; would be nice to avoid when it's not needed.
+// Also, this doesn't load correctly when jest test runs. That's ok for now.
+import STOPS from '../data/stops.json';
 
+const numericStops = STOPS?.filter(item => !!item.id.substring(0, 1).match(/\d/));
+const nonNumericStops = STOPS?.filter(item => !item.id.substring(0, 1).match(/\d/));
+
+export const SearchBox = ({ sx, options }: { sx?: SxProps, options?: { label: string, id: string }[] }) => {
     const navigate = useNavigate();
-    const [searchValue, setSearchValue] = useState('');
 
-    const submit = () => {
-        // TODO: a nice way to deal with searches which aren't stop IDs
-        navigate(composeStopURL(searchValue));
-    };
-
-    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        setSearchValue(event.target.value.toLocaleUpperCase());
-    };
-
-    const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
-        if (event.key === 'Enter') {
-            submit();
+    const onAutocompletechange = (_event: React.SyntheticEvent, value: unknown) => {
+        const idFromRecord = (value as { id: string })?.id;
+        if (idFromRecord) {
+            navigate(composeStopURL(idFromRecord));
         }
     };
 
     return (
-        <form onSubmit={(e) => { e.preventDefault() }}>
-            <Alert severity='warning'>
-                You'll need to enter the exact ID, like "CROF". Soon there'll be a nicer scheme for this.
-            </Alert>
-            <Box sx={{ ...sx, display: 'flex', flexWrap: 'wrap' }}>
-                <TextField
-                    placeholder='Bus or Train Stop ID...'
-                    onChange={handleChange}
-                    onKeyDown={handleKeyDown}
-                    sx={{ flexGrow: 1 }}
-                />
-                <IconButton onClick={submit} aria-label='search' >
-                    <SearchIcon fontSize='large' />
-                </IconButton>
-            </Box>
-        </form>
+        <Box sx={{ ...sx, display: 'flex', flexWrap: 'wrap' }}>
+            <Autocomplete
+                sx={{ flexGrow: 1 }}
+                disablePortal
+                options={options || nonNumericStops || []}
+                onChange={onAutocompletechange}
+                renderInput={(params) => <TextField {...params} label="Pick Train Stop" />}
+            />
+            <Autocomplete
+                sx={{ flexGrow: 1 }}
+                disablePortal
+                options={options || numericStops || []}
+                onChange={onAutocompletechange}
+                renderInput={(params) => <TextField {...params} label="Pick Bus Stop" />}
+            />
+        </Box>
     );
 };
