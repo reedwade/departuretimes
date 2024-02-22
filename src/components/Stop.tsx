@@ -19,7 +19,7 @@ import { getServiceAlertsUrlAndHeaders } from '../metlink/api/service_alerts';
 import { Departure, Destination, getStopPredictionsUrlAndHeaders } from '../metlink/api/stop_predictions';
 import { prettyAimedExpected, prettyDelay } from '../metlink/view/dates';
 import { ServiceAlerts, extractServiceAlertInfoForStop, tripAlertAnnotation } from '../metlink/view/service_alerts';
-import { StopPredictions, destinationStopAndName, gatherUniqueDestinations } from '../metlink/view/stop_predictions';
+import { StopPredictions, gatherUniqueDestinations } from '../metlink/view/stop_predictions';
 import { Alerts } from './Alerts';
 import { ErrorBox } from './ErrorBox';
 import { ExternalLinkWithIcon } from './ExternalLink';
@@ -183,7 +183,7 @@ const Stop = ({ stopID, destinationID }: { stopID: string, destinationID?: strin
                         key={`${departure.trip_id}-${departure.vehicle_id}`}
                         sx={{ display: 'flex', alignItems: 'center', fontSize: (index < 3 ? '200%' : 'inherit'), fontFamily: 'monospace' }}
                     >
-                        {!destinationID ? `to ${destinationStopAndName(departure.destination)} - ` : ''}
+                        {!destinationID ? `to ${departure.destination.stop_id} ${departure.destination.name} - ` : ''}
                         {' '}{prettyAimedExpected(departure.departure, now)}
                         {' '}{prettyDelay(departure.delay)}
                         {' '}{departure.monitored ? (<GpsFixedIcon color='success' sx={{ marginX: 1 }} />) : ''}
