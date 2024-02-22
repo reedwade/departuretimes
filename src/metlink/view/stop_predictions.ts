@@ -20,3 +20,16 @@ export const gatherUniqueDestinations = (stopPredictions: StopPredictions): Dest
         map((departure: Departure) => valsmap.set(departure.destination.stop_id, departure.destination));
     return [...valsmap.values()];
 };
+
+/**
+ * Return stop ID and name without stutter. Omit stop ID if the name already prefixes it.
+ * 
+ * Example: "JOHN All stops" instead of "JOHN JOHN All stops"
+ */
+export const destinationStopAndName = (destination: Destination) => (
+    destination.name.startsWith(destination.stop_id)
+        ?
+        destination.name
+        :
+        `${destination.stop_id} ${destination.name}`
+);
