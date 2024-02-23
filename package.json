@@ -9,8 +9,8 @@
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "deploy": "./deploy.sh",
-    "coverage": "jest --coverage",
-    "test": "jest"
+    "coverage": "TZ=Pacific/Auckland jest --coverage",
+    "test": "TZ=Pacific/Auckland jest"
   },
   "dependencies": {
     "@emotion/react": "latest",
