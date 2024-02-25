@@ -63,12 +63,18 @@ const AboutPage = () => (
                 <dd>
                     some stops have more destinations than fit nicely on a phone screen; need to wrap these or something
                 </dd>
+                <dd><a href="https://github.com/reedwade/departuretimes/issues/5">issues/5</a></dd>
             </dl>
             <dl>
                 <dt>too much whitespace on smaller displays</dt>
                 <dd>
                     Margins should be tighter on smaller width displays.
                 </dd>
+                <dd><a href="https://github.com/reedwade/departuretimes/issues/6">issues/6</a></dd>
+            </dl>
+            <dl>
+                <dt>Add more if you run into problems at</dt>
+                <dd><a href="https://github.com/reedwade/departuretimes/issues">github.com/reedwade/departuretimes/issues</a></dd>
             </dl>
         </PaperWithHeadline>
 
