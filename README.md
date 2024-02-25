@@ -21,17 +21,7 @@ As importantly, any service alert is right there so I know whether to be sad or 
 
 ## To Do
 
-* lazy load the stops list (it's 50k compressed)
-* auto CI deploy scheme
-* destinations button bar can be wider than the page
-  * some stops have more destinations than fit nicely on a phone screen; need to wrap these or something
-* too much whitespace on smaller displays
-  * margins should be tighter on smaller width displays
-* PWA config
-* a more sensible favicon
-* bus route number in the departures list view would be nice
-* bus/train/ferry indicator in the stop picker would be nice
-* bus/train/ferry filter in the stop picker would be nice
+See issues list.
 
 ## Getting Started
 
