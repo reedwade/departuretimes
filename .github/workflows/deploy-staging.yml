@@ -1,0 +1,41 @@
+name: Deploy to staging
+
+on:
+    workflow_dispatch:
+
+jobs:
+    deploy-staging:
+        name: Deploy to staging
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with: 
+                node-version: "20"
+            - run: npm clean-install
+            - run: npm run build
+
+            - name: Configure Staging SSH
+              env:
+                SSH_USER: ${{ secrets.STAGING_SSH_USER }}
+                SSH_KEY: ${{ secrets.STAGING_SSH_KEY }}
+                SSH_HOST: ${{ secrets.STAGING_SSH_HOST }}
+                SSH_HOST_KEY: ${{ secrets.STAGING_SSH_HOST_KEY }}
+              run: |
+                mkdir -p ~/.ssh/
+                cat <<EOF > ~/.ssh/staging.key
+                ${SSH_KEY}
+                EOF
+                cat <<EOF >> ~/.ssh/known_hosts
+                ${SSH_HOST_KEY}
+                EOF
+                chmod 600 ~/.ssh/staging.key ~/.ssh/known_hosts
+                cat <<EOF >> ~/.ssh/config
+                Host staging
+                    HostName ${SSH_HOST}
+                    User ${SSH_USER}
+                    IdentityFile ~/.ssh/staging.key
+                EOF
+
+            - name: rsync dist to server
+              run: rsync -av --delete --force dist "staging:"
