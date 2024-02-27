@@ -13,6 +13,8 @@ jobs:
               with: 
                 node-version: "20"
             - run: npm clean-install
+
+            - run: echo "VITE_API_KEY=${{ secrets.VITE_API_KEY }}" > .env.local
             - run: npm run build
 
             - name: Configure Staging SSH
