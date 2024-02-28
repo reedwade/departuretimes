@@ -1,14 +1,23 @@
 name: checkout-and-test
 description: Check out the repo, set up node modules, run tests
 
+inputs:
+  coverage:
+    description: Set to run test coverage
+    default: "false"
+
 runs:
   using: composite
   steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
-      with: 
+      with:
         node-version: "20"
     - run: npm clean-install
       shell: bash
     - run: npm run test
+      if: ${{ inputs.coverage == false || inputs.coverage == 'false' }}
+      shell: bash
+    - run: npm run coverage
+      if: ${{ inputs.coverage == true || inputs.coverage == 'true' }}
       shell: bash
