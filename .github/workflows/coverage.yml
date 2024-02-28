@@ -1,4 +1,4 @@
-name: Tests
+name: Test Coverage
 
 on:
     workflow_dispatch:
@@ -6,7 +6,9 @@ on:
 
 jobs:
     tests:
-        name: Run Tests
+        name: Run test coverage
         runs-on: ubuntu-latest
         steps:
             - uses: reedwade/departuretimes/.github/actions/checkout-and-test@main
+              with:
+                coverage: true
