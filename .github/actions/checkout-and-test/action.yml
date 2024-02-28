@@ -1,0 +1,14 @@
+name: checkout-and-test
+description: Check out the repo, set up node modules, run tests
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with: 
+        node-version: "20"
+    - run: npm clean-install
+      shell: bash
+    - run: npm run test
+      shell: bash

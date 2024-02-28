@@ -1,0 +1,17 @@
+name: build
+description: Perform vite build
+
+inputs:
+  vite_api_key:
+    description: VITE_API_KEY value
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Set Metlink API key (VITE_API_KEY)
+      run: echo "VITE_API_KEY=${{ inputs.vite_api_key }}" > .env.local
+      shell: bash
+
+    - run: npm run build
+      shell: bash

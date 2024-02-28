@@ -11,17 +11,10 @@ jobs:
           url: https://staging.departuretimes.click
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
-            - uses: actions/setup-node@v4
-              with: 
-                node-version: "20"
-            - run: npm clean-install
-
-            - name: Set metlink API key
-              run: echo "VITE_API_KEY=${{ secrets.VITE_API_KEY }}" > .env.local
-
-            - run: npm run build
-
+            - uses: reedwade/departuretimes/.github/actions/checkout-and-test@main
+            - uses: reedwade/departuretimes/.github/actions/build@main
+              with:
+                vite_api_key: ${{ secrets.VITE_API_KEY }}
             - uses: reedwade/departuretimes/.github/actions/rsync-deploy@main
               with:
                 target_name: staging
