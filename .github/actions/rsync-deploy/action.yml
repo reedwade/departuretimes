@@ -1,0 +1,46 @@
+name: rsync-deploy
+description: Deploy a dist ouput folder via rsync to a static server
+
+inputs:
+  target_name:
+    description: target name (used to compose file and host names)
+    required: true
+  ssh_host:
+    description: target host name
+    required: true
+  ssh_host_public_key:
+    description: target host pubic key (as from "ssh-keyscan HOST")
+    required: true
+  ssh_user_name:
+    description: deploy user name
+    required: true
+  ssh_user_key:
+    description: private key for deploy user
+  deploy_src:
+    description: directory containing deploy content
+    default: "./dist"
+
+runs:
+  using: composite
+  steps:
+    - name: Configure SSH key and deploy target host ( ${{ inputs.target_name }} )
+      run: |
+        mkdir -p ~/.ssh/
+        cat <<EOF > ~/.ssh/${{ inputs.target_name }}_user.key
+        ${{ inputs.ssh_user_key }}
+        EOF
+        cat <<EOF >> ~/.ssh/known_hosts
+        ${{ inputs.ssh_host_public_key }}
+        EOF
+        chmod 600 ~/.ssh/${{ inputs.target_name }}_user.key ~/.ssh/known_hosts
+        cat <<EOF >> ~/.ssh/config
+        Host ${{ inputs.target_name }}-host
+          HostName ${{ inputs.ssh_host }}
+          User ${{ inputs.ssh_user_name }}
+          IdentityFile ~/.ssh/${{ inputs.target_name }}_user.key
+        EOF
+      shell: bash
+    - run: echo "${{ inputs.target_name }} - $(date --iso-8601=seconds) - $(git rev-parse --short HEAD)" > "${{ inputs.deploy_src }}/deploy.txt"
+      shell: bash
+    - run: rsync -av --delete --force "${{ inputs.deploy_src }}" "${{ inputs.target_name }}-host:"
+      shell: bash
