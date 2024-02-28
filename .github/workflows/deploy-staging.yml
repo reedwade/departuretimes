@@ -27,6 +27,6 @@ jobs:
                 target_name: staging
                 ssh_host: ${{ secrets.SSH_HOST }}
                 ssh_host_public_key: ${{ secrets.SSH_HOST_PUBLIC_KEY }}
-                ssh_user_name: $${{ secrets.SSH_USER_NAME }}
-                ssh_user_key: $${{ secrets.SSH_USER_KEY }}
+                ssh_user_name: ${{ secrets.SSH_USER_NAME }}
+                ssh_user_key: ${{ secrets.SSH_USER_KEY }}
                 
