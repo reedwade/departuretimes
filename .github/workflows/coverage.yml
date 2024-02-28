@@ -2,7 +2,6 @@ name: Test Coverage
 
 on:
     workflow_dispatch:
-    pull_request:
 
 jobs:
     tests:
@@ -11,4 +10,4 @@ jobs:
         steps:
             - uses: reedwade/departuretimes/.github/actions/checkout-and-test@main
               with:
-                coverage: true
+                coverage: "true"
