@@ -1,0 +1,32 @@
+name: Deploy to prod
+
+on:
+    workflow_dispatch:
+
+jobs:
+    deploy-prod:
+        name: Deploy to prod
+        environment:
+          name: Production
+          url: https://departuretimes.click
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with: 
+                node-version: "20"
+            - run: npm clean-install
+
+            - name: Set metlink API key
+              run: echo "VITE_API_KEY=${{ secrets.VITE_API_KEY }}" > .env.local
+
+            - run: npm run build
+
+            - uses: reedwade/departuretimes/.github/actions/rsync-deploy@main
+              with:
+                target_name: prod
+                ssh_host: ${{ secrets.SSH_HOST }}
+                ssh_host_public_key: ${{ secrets.SSH_HOST_PUBLIC_KEY }}
+                ssh_user_name: ${{ secrets.SSH_USER_NAME }}
+                ssh_user_key: ${{ secrets.SSH_USER_KEY }}
+                
