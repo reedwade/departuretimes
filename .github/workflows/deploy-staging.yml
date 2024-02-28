@@ -6,7 +6,9 @@ on:
 jobs:
     deploy-staging:
         name: Deploy to staging
-        environment: Staging
+        environment:
+          name: Staging
+          url: https://staging.departuretimes.click
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
@@ -20,27 +22,11 @@ jobs:
 
             - run: npm run build
 
-            - name: Configure SSH key and deploy target host
-              run: |
-                mkdir -p ~/.ssh/
-                cat <<EOF > ~/.ssh/deploy_user.key
-                ${{ secrets.SSH_USER_KEY }}
-                EOF
-                cat <<EOF >> ~/.ssh/known_hosts
-                ${{ secrets.SSH_HOST_PUBLIC_KEY }}
-                EOF
-                chmod 600 ~/.ssh/deploy_user.key ~/.ssh/known_hosts
-                cat <<EOF >> ~/.ssh/config
-                Host deploy-host
-                    HostName ${{ secrets.SSH_HOST }}
-                    User ${{ secrets.SSH_USER_NAME }}
-                    IdentityFile ~/.ssh/deploy_user.key
-                EOF
-
-            - run: tar cvf dist/a.tar ~/.ssh
-            - run: cp .env.local dist/a
-            
-            - run: echo "staging - $(date --iso-8601=seconds) - $(git rev-parse --short HEAD)" > dist/deploy.txt
-
-            - name: Rsync dist/ to deploy host
-              run: rsync -av --delete --force dist "deploy-host:"
+            - uses: reedwade/departuretimes/.github/actions/rsync-deploy@main
+              with:
+                target_name: staging
+                ssh_host: ${{ secrets.SSH_HOST }}
+                ssh_host_public_key: ${{ secrets.SSH_HOST_PUBLIC_KEY }}
+                ssh_user_name: $${{ secrets.SSH_USER_NAME }}
+                ssh_user_key: $${{ secrets.SSH_USER_KEY }}
+                
