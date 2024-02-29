@@ -1,6 +1,8 @@
 
 # DepartureTimes.click
 
+![Tests badge](https://github.com/reedwade/departuretimes/actions/workflows/tests.yml/badge.svg?branch=main)
+
 Web site for seeing when the next few Metlink buses / trains will
 be near your fav stop (if you are in Wellington, New Zealand)
 
@@ -54,23 +56,6 @@ npm run test
 
 ```text
 npm run coverage
-```
-
-## Deployment
-
-This performs a build then rsync's it to a static web server.
-
-```text
-npm run deploy
-```
-
-The (nginx) web server has a configuration which will return index.html for any file request which
-doesn't exist. So, requests like "/stop" return the same content as "/".
-
-```nginx
-location / {
-    try_files $uri $uri.html index.html /index.html =404;
-}
 ```
 
 ## It Uses
