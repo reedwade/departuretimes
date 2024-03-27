@@ -16,6 +16,7 @@ const months = [
 const nzTimeFormatter = new Intl.DateTimeFormat([], {
     timeStyle: 'short',
     hour12: true,
+    hourCycle: 'h12',
     timeZone: 'Pacific/Auckland',
 });
 
@@ -42,7 +43,13 @@ export const prettyAimedExpected = (ae: AimedExpected, now?: number): string => 
 
     // Format the given time, shortening the text by replacing "1:00 pm" with "1:00p".
 
-    return `${nzTimeFormatter.format(d).toLowerCase().replace(" am", "a").replace(" pm", "p")} (${howLong})`;
+    return `${nzTimeFormatter.
+        format(d).
+        toLowerCase().
+        replace(/^00:/, "12:").
+        replace(/^0/, "").
+        replace(" am", "a").
+        replace(" pm", "p")} (${howLong})`;
 };
 
 /**
