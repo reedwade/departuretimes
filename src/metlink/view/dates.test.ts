@@ -1,12 +1,4 @@
-import { alertDates, monthAndDayFromEpochTime, padLeadingZero, prettyAimedExpected, prettyDelay } from './dates';
-
-test.each([
-    { arg: 0, expected: '00' },
-    { arg: 1, expected: '01' },
-    { arg: 100, expected: '100' },
-])('padLeadingZero / $# / $arg -> $expected', ({ arg, expected }) => {
-    expect(padLeadingZero(arg)).toBe(expected);
-});
+import { alertDates, monthAndDayFromEpochTime, prettyAimedExpected, prettyDelay } from './dates';
 
 const january22at2pm = Date.parse('2024-01-22T14:00:00+13:00');
 
