@@ -11,17 +11,13 @@ const months = [
 ];
 
 /**
- * Format integers with a leading zero.
- * It's used here for the 2 digit values in times.
- * 
- * Example: 9 -> '09'
- * 
- * @param value input number to be padded
- * @returns the input value but with a leading "0" if less than 10
+ * Format time in NZ time zone even if the browser is set to some other time zone.
  */
-export const padLeadingZero = (value: number): string => {
-    return String(value).padStart(2, '0');
-};
+const nzTimeFormatter = new Intl.DateTimeFormat([], {
+    timeStyle: 'short',
+    hour12: true,
+    timeZone: 'Pacific/Auckland',
+});
 
 /**
  * Format the wall clock time of this service departure
@@ -33,24 +29,20 @@ export const padLeadingZero = (value: number): string => {
  * @param now - defaults to Date.now()
  */
 export const prettyAimedExpected = (ae: AimedExpected, now?: number): string => {
-    const ts = Date.parse(ae.expected || ae.aimed);
-    if (isNaN(ts)) {
+    const timestamp = Date.parse(ae.expected || ae.aimed);
+    if (isNaN(timestamp)) {
         return '';
     }
     now = now || Date.now();
-    const ago = (ts < now) ? ' ago' : '';
-    const minutesDelta = Math.round(Math.abs(ts - now) / (1000 * 60));
+    const ago = (timestamp < now) ? ' ago' : '';
+    const minutesDelta = Math.round(Math.abs(timestamp - now) / (1000 * 60));
     const howLong = minutesDelta > 0 ? `${minutesDelta}min${ago}` : '<1min';
 
-    const d = new Date(ts);
+    const d = new Date(timestamp);
 
-    let hours12 = d.getHours() % 12;
-    if (hours12 === 0) {
-        hours12 = 12;
-    }
-    const ampm = d.getHours() < 12 ? 'a' : 'p';
+    // Format the given time, shortening the text by replacing "1:00 pm" with "1:00p".
 
-    return `${hours12}:${padLeadingZero(d.getMinutes())}${ampm} (${howLong})`;
+    return `${nzTimeFormatter.format(d).toLowerCase().replace(" am", "a").replace(" pm", "p")} (${howLong})`;
 };
 
 /**
