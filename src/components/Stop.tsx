@@ -216,7 +216,7 @@ const Stop = ({ stopID, destinationID }: { stopID: string, destinationID?: strin
     );
 
     const departuresListBox = (
-        <Box margin={1}>
+        <Box margin={1} display={departuresList?.length ? '' : 'none'}>
             {departuresList?.slice(0, howManyToShow)}
             {showAllDepartures ?
                 <>
@@ -246,7 +246,7 @@ const Stop = ({ stopID, destinationID }: { stopID: string, destinationID?: strin
 
             <ErrorBox error={stopPredictions?.error} margin={1} />
 
-            <Box display={departuresList?.length ? '' : 'none'}>
+            <Box display={stopPredictions?.departures ? '' : 'none'}>
 
                 {departuresListBox}
 
